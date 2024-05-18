@@ -6,6 +6,11 @@ Full version of ProxCP v1.7 open source (last commercial use update was 9/25/202
 - no limitations on code use, editing, or sharing
 - ZERO support is provided for use of this code base or modifications made to it
 
+# Useful Links
+- https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu
+- https://askubuntu.com/questions/1432704/force-install-php-7-packages-on-ubuntu-22-04-lts
+- https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-3-installing-node-using-the-node-version-manager
+
 # Build Instructions (Web)
 - php composer.phar
 - php composer.phar install
