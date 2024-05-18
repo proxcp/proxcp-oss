@@ -17,10 +17,12 @@ Full version of ProxCP v1.7 open source (last commercial use update was 9/25/202
 
 # Build Instructions (Daemon)
 - Note: this is only required if you want to package all of the socket/*.js scripts into a single binary file...you could just run "node server.js"
+- apt install cmake gcc g++
 - nvm use v12.22.5
 - npm install -g pkg
 - npm install -g forever
-- cd /opt/proxcp && npm install
+- Note: python2.7 is required to install mhash
+- cd /opt/proxcp && npm install --python=python2.7
 - pkg -t node12-linux-x64 . --options no-warnings
 
 # System Requirements and Prereqs
