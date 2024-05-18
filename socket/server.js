@@ -961,4 +961,6 @@ function yeet(gl_init, serv) {
 		cron.resetbw(logger);
 	}, null, true, config.timezone);
 
+	server.listen(config.socketPort, config.socketIP);
+
 }
