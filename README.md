@@ -15,10 +15,11 @@ Full version of ProxCP v1.7 open source (last commercial use update was 9/25/202
 - nvm use v12.22.5
 - npm install -g pkg
 - npm install -g forever
+- cd /opt/proxcp && npm install
 - pkg -t node12-linux-x64 . --options no-warnings
 
 # System Requirements and Prereqs
-#Proxmox
+# Proxmox
 - Minimum Proxmox version: Proxmox VE 5.3 (released 2019-01-23)
 - Highly recommended: install Proxmox from ISO; not on top of a Debian installation
 
