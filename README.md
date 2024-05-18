@@ -15,6 +15,7 @@ Full version of ProxCP v1.7 open source (last commercial use update was 9/25/202
 # Build Instructions (Web)
 - php composer.phar
 - php composer.phar install
+- core/init.default.php file needs to be renamed to core/init.php before installation!
 
 # Build Instructions (Daemon)
 - Note: this is only required if you want to package all of the socket/*.js scripts into a single binary file...you could just run "node server.js"
