@@ -1,0 +1,34 @@
+{
+  "name": "proxcp-socket",
+  "version": "1.0.0",
+  "description": "ProxCP socket server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ProxCP",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "acme-http-01-webroot": "^3.0.0",
+    "cron": "^1.1.0",
+    "delayed": "^1.0.1",
+    "exec": "^0.2.1",
+    "fs-jetpack": "^2.4.0",
+    "greenlock": "^4.0.4",
+    "ip6": "latest",
+    "locutus": "^2.0.5",
+    "magiccrypt": "^2.2.3",
+    "moment": "^2.13.0",
+    "mysql2": "^1.0.0-rc.1",
+    "request": "^2.79.0",
+    "simple-ssh": "^1.0.0",
+    "socket.io": "2.4.1",
+    "ssh-exec": "^2.0.0",
+    "ssh2": "^0.5.4",
+    "winston": "^2.2.0"
+  },
+  "private": true,
+  "bin": {
+    "proxcp": "./server.js"
+  }
+}
