@@ -1,3 +1,6 @@
+# Proxmox Control Panel (ProxCP)
+This software was sold commercially but official development and support has ended. This was designed primarily for VPS/VM hosting providers to use proxmox on their servers and offer a neat web control panel for their users.
+
 # ProxCP v1.7 Open Source
 Full version of ProxCP v1.7 open source (last commercial use update was 9/25/2021)
 
